@@ -8,8 +8,8 @@
             "src": "/(.*)",
             "dest": "guess_anime/wsgi.py"
         }
+    ],
+    "rewrites": [
+        {"source": "/(.*)", "destination": "/"}
     ]
-    
-    
-    
 }

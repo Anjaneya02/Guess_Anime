@@ -19,5 +19,5 @@ from django.urls import path
 from guessor.views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('/',first)
+    path('',first)
 ]
