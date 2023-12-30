@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "guess-anime"
+version = "0.1.0"
+description = "this is the env for guessing anime game"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+anilistpython = "0.1.3"
+requests = "^2.31.0"
+django = "^5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

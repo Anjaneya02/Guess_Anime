@@ -1,0 +1,12 @@
+{
+    "builds": [{
+        "src": "guess_anime/wsgi.py",
+        "use": "@vercel/python",
+    }],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "guess_anime/wsgi.py"
+        }
+    ]
+}

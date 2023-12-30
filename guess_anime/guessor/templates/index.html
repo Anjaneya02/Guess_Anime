@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head></head>
+<body>
+    <h1>Anime Guessor</h1>
+    {{desc}}
+    {{name_english}}
+    <input value="{{name_english}}" readonly name="anime">
+    <input type="text" placeholder="guess the anime" name="guess">
+    <button type="button" onclick="checkor()">check</button>
+    <script>
+        function checkor() {
+            let g = document.getElementsByName('guess')[0].value;
+            let result = document.getElementsByName('anime')[0].value;
+            console.log(result);
+            console.log(g);
+            if (g === result) {
+                alert("you won");
+                console.log('HURRAHH!!!!! you won');
+            } else {
+                alert('you lost');
+                console.log('you lost');
+            }
+        }
+    </script>
+</body>
+
+</html>
